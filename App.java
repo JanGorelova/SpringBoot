@@ -24,7 +24,7 @@ public class App {
     public static void main(String[] args) {
         ApplicationContext ctx =  new ClassPathXmlApplicationContext("spring.xml");
         App app = (App) ctx.getBean("app");
-        Event event = (Event) ctx.getBean("event");
+        Event event = (Event) ctx.getBean("event ");
         app.logEvent(event);
         ConfigurableApplicationContext context = new ClassPathXmlApplicationContext("spring.xml");
         context.close();

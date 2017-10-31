@@ -1,4 +1,4 @@
-package epam.spring.core;
+package epam.spring.core.events;
 
 import javax.annotation.Generated;
 import java.text.DateFormat;
